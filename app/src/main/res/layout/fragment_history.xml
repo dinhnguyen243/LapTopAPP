@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		untitled
+     *	@date 		1623859615936
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+            <RelativeLayout
+                android:id="@+id/page_homepage_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                tools:ignore="MissingConstraints">
+                <View
+                    android:id="@+id/_bg__homepage_ek2"
+                    android:layout_width="411dp"
+                    android:layout_height="823dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="0dp" />
+
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_bg">
+
+                    <TextView
+                        android:id="@+id/tv_Khuyenmai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="9dp"
+                        android:text="Lịch sử mua hàng"
+                        android:textColor="@color/amber_A100"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/list_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="700dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="97dp" />
+            </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

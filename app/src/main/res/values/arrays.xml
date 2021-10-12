@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Trang Chủ</item>
+        <item>Danh Sách Máy Mới</item>
+        <item>Chương Trình Khuyến Mãi</item>
+        <item>Danh Sách Sản Phẩm</item>
+        <item>Lịch Sử Mua Hàng</item>
+        <item>Thông tin và liên hệ</item>
+        <item />
+    </string-array>
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/icon_home</item>
+        <item>@drawable/ic_baseline_fiber_new_24</item>
+        <item>@drawable/ic_baseline_star_rate_24</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_baseline_history_24</item>
+        <item>@drawable/icon_about</item>
+        <item>0</item>
+    </array>
+
+</resources>
