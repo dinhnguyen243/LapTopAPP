@@ -1,0 +1,182 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		untitled
+     *	@date 		1623859615936
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+    <ScrollView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/page_homepage_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp">
+
+                <View
+                    android:id="@+id/_bg__homepage_ek2"
+                    android:layout_width="411dp"
+                    android:layout_height="823dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white" />
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/imagedetail_laptop"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="82dp"
+                    app:delay="0"
+                    app:error_image="@color/white"
+                    app:period="1000"
+                    ></com.denzcoskun.imageslider.ImageSlider>
+
+                <ImageView
+                    android:id="@+id/addto_cartproductdetail"
+                    android:layout_width="61dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="159dp"
+                    android:layout_marginRight="159dp"
+                    android:background="@drawable/vien"
+                    app:srcCompat="@drawable/ic_baseline_add_shopping_cart_24"
+                    tools:ignore="VectorDrawableCompat"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv_namedetail_Laptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="257dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:text="Apple Macbook Pro 2020 M1 - 13 Inchs (Apple M1/ 8GB/ 256GB) - Hàng Chính Hãng"
+                    android:textColor="@color/black"
+                    android:textSize="28dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/tv_pricedetail_laptop"
+                    android:layout_width="165dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="217dp"
+                    android:layout_marginRight="217dp"
+                    android:background="@drawable/vien"
+                    android:gravity="center"
+                    android:text="17.000.000đ"
+                    android:textColor="@color/red_600"
+                    android:textSize="22dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_namedetail_Laptop"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="317dp"
+                    android:layout_marginRight="317dp"
+                    android:text="Mã SP:"
+                    android:textSize="22dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/TV_MaSP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_namedetail_Laptop"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="171dp"
+                    android:layout_marginRight="171dp"
+                    android:text="LTAC705"
+                    android:textColor="@color/red_500"
+                    android:textSize="22dp"></TextView>
+
+                <RelativeLayout
+                    android:id="@+id/lablevideo"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/addto_cartproductdetail"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="38dp"
+                    android:layout_marginRight="38dp"
+                    android:background="@drawable/button_bg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="9dp"
+                        android:text="Video Review"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/video"
+                    android:layout_width="338dp"
+                    android:layout_height="192dp"
+                    android:layout_below="@+id/lablevideo"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="38dp"
+                    android:layout_marginRight="38dp"
+                    app:showFullScreenButton="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

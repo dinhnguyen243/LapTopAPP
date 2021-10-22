@@ -1,0 +1,284 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		untitled
+     *	@date 		1623859615936
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+    <ScrollView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/page_homepage_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp">
+
+                <View
+                    android:id="@+id/_bg__homepage_ek2"
+                    android:layout_width="411dp"
+                    android:layout_height="823dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/white" />
+
+                <ImageView
+                    android:id="@+id/imagecontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="29dp"></ImageView>
+
+                <RelativeLayout
+                    android:id="@+id/labelcontext"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/imagecontext"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:background="@drawable/button_bg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="9dp"
+                        android:text="Thông số kĩ thuật"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="494dp"
+                    android:layout_below="@+id/labelcontext"
+                    android:layout_marginTop="22dp">
+                    <TableRow android:layout_margin="10dp">
+                       <TextView
+                           android:layout_marginLeft="15dp"
+                           android:layout_marginRight="50dp"
+                           android:text="Mã sản phẩm"
+                           android:textSize="15dp"
+                           />
+
+                        <TextView
+                            android:id="@+id/tv_context_masp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Tên sản phẩm"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_tensp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Hãng sản xuất"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_brand"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Ram"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_ram"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Bộ nhớ trong"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_rom"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2"
+                        >
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="CPU"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_CPU"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Core"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_core"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2"
+                        >
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Màu Sắc"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_mausac"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Màn hình"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_manhinh"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2"
+                        >
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Kích Thước"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/tv_context_kichthuoc"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp">
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="VGA"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_VGA"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+                    <TableRow android:layout_margin="10dp"
+                        android:background="#f2f2f2f2"
+                        >
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Hệ điều hành"
+                            android:textSize="15dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_context_os"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="50dp"
+                            android:text="Asus"
+                            android:textSize="15dp" />
+                    </TableRow>
+
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
