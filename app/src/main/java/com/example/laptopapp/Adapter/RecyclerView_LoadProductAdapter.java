@@ -105,7 +105,7 @@ public class RecyclerView_LoadProductAdapter extends RecyclerView.Adapter<Recycl
         try {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
-            URL url = new URL(laptop.getImg().get(0).trim());
+            URL url = new URL("https://admin-laptop-app.herokuapp.com/public/img/"+laptop.getImg().get(0).trim());
             HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
             httpConn.connect();
             int resCode = httpConn.getResponseCode();

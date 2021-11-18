@@ -36,7 +36,7 @@ public class Laptop {
     private String size;
     private String vga;
     private String os;
-    private String link_review;
+    private ArrayList<String> link_review;
     private ArrayList<String> img;
     private float price_income;
     private float price_outcome;
@@ -146,11 +146,11 @@ public class Laptop {
         this.os = os;
     }
 
-    public String getLink_review() {
+    public ArrayList<String> getLink_review() {
         return link_review;
     }
 
-    public void setLink_review(String link_review) {
+    public void setLink_review(ArrayList<String> link_review) {
         this.link_review = link_review;
     }
 
@@ -189,7 +189,7 @@ public class Laptop {
     public Laptop() {
     }
 
-    public Laptop(String created_at, String updated_at, String _id, String product_id, String product_name, String brand, String ram, String hard_disk, String cpu, String core, String color, String monitor, String size, String vga, String os, String link_review, ArrayList<String> img, float price_income, float price_outcome, int quantity) {
+    public Laptop(String created_at, String updated_at, String _id, String product_id, String product_name, String brand, String ram, String hard_disk, String cpu, String core, String color, String monitor, String size, String vga, String os, ArrayList<String> link_review, ArrayList<String> img, float price_income, float price_outcome, int quantity) {
         this.created_at = created_at;
         this.updated_at = updated_at;
         this._id = _id;

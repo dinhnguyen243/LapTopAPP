@@ -64,7 +64,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="9dp"
                             android:text="Khuyến mãi"
-                            android:textColor="@color/amber_A100"
+                            android:textColor="@color/red_600"
                             android:textSize="23dp"
                             android:textStyle="bold" />
 

@@ -40,11 +40,12 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginLeft="0dp">
+
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/purple_700"
+                    android:background="@color/red_800"
                     android:minHeight="?attr/actionBarSize"
                     android:theme="?attr/actionBarTheme">
 
@@ -60,7 +61,7 @@
                             android:layout_marginLeft="140dp"
                             android:layout_marginTop="15dp"
                             android:text="Giỏ Hàng"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold" />
 
@@ -70,10 +71,9 @@
                             android:layout_height="30dp"
                             android:layout_marginStart="16dp"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="10dp"
                             android:contentDescription="icon_back_ek1"
-                            android:src="@drawable/icon_back_ek1"
-                            />
+                            android:src="@drawable/icon_back_ek1" />
                     </com.google.android.material.appbar.CollapsingToolbarLayout>
                 </androidx.appcompat.widget.Toolbar>
 
@@ -104,7 +104,8 @@
                     android:layout_marginEnd="78dp"
                     android:background="@color/pink_A200"
                     android:text="Thanh Toán bằng MoMo"
-                    app:backgroundTint="#EF3574" />
+                    android:textColor="@color/black"
+                    app:backgroundTint="#B83939" />
 
                 <TextView
                     android:id="@+id/labletext"
@@ -202,7 +203,7 @@
                         android:layout_marginEnd="14dp"
                         android:layout_marginRight="14dp"
                         android:layout_marginBottom="15dp"
-                        android:background="@drawable/button_bg"
+                        android:backgroundTint="@drawable/button_bg"
                         android:text="Xác Nhận"
                         android:textColor="@color/white" />
 

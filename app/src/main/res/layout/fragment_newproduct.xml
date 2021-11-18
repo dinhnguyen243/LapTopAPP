@@ -27,63 +27,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <RelativeLayout
             android:id="@+id/content_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <RelativeLayout
-                android:id="@+id/page_homepage_ek1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginLeft="0dp">
-                <View
-                    android:id="@+id/_bg__homepage_ek2"
-                    android:layout_width="411dp"
-                    android:layout_height="823dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:background="@color/white"
-                    android:layout_marginLeft="0dp" />
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_bg">
 
                 <TextView
-                    android:id="@+id/tv_brand"
+                    android:id="@+id/maymoi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginEnd="265dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="9dp"
                     android:text="Máy Mới"
-                    android:textSize="22dp"
+                    android:textColor="@color/red_500"
+                    android:textSize="23dp"
                     android:textStyle="bold" />
 
-                <View
-                    android:id="@+id/view"
-                    android:layout_width="600dp"
-                    android:layout_height="1dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginStart="31dp"
-                    android:layout_marginLeft="31dp"
-                    android:layout_marginTop="41dp"
-                    android:layout_marginEnd="100dp"
-                    android:layout_marginRight="100dp"
-                    android:layout_marginBottom="-42dp"
-                    android:background="@color/black"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"></View>
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recycler_newproduct"
-                    android:layout_width="match_parent"
-                    android:layout_height="748dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="53dp" />
             </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_newproduct"
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="91dp" />
+
         </RelativeLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
