@@ -39,7 +39,7 @@ public class CartActivity extends AppCompatActivity {
         tv_totalprice = (TextView) findViewById(R.id.tv_totalprice_cart);
         SessionManagement sessionManagement = new SessionManagement(CartActivity.this); // goi session
          String user_id = sessionManagement.getSession(); // set session
-        carts = cartStoge.getallcart(user_id); // load trong database sqlite
+        carts = cartStoge.getallcart(user_id); // load trong database sqlite //////////
         if(carts.size() == 0){
             muahang.setEnabled(false);
         }else{
