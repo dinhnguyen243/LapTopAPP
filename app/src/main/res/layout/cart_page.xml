@@ -40,11 +40,12 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginLeft="0dp">
+
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/purple_700"
+                    android:background="@color/red_900"
                     android:minHeight="?attr/actionBarSize"
                     android:theme="?attr/actionBarTheme">
 
@@ -58,22 +59,21 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="140dp"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="5dp"
                             android:text="Giỏ Hàng"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="24sp"
                             android:textStyle="bold" />
 
                         <ImageView
                             android:id="@+id/icon_back_cart"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
                             android:layout_marginStart="16dp"
                             android:layout_marginLeft="16dp"
-                            android:layout_marginTop="16dp"
+                            android:layout_marginTop="10dp"
                             android:contentDescription="icon_back_ek1"
-                            android:src="@drawable/icon_back_ek1"
-                            />
+                            android:src="@drawable/icon_back_ek1" />
                     </com.google.android.material.appbar.CollapsingToolbarLayout>
                 </androidx.appcompat.widget.Toolbar>
 

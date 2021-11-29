@@ -53,10 +53,10 @@ public class laptopData {
                 masp.setText(laptops.getProduct_id());
                 List<SlideModel> slideModels = new ArrayList<>();
                 for(int i = 0; i < laptops.getImg().size(); i++){
-                    slideModels.add(new SlideModel(laptops.getImg().get(i),null));
+                    slideModels.add(new SlideModel("https://admin-laptop-app.herokuapp.com/public/img/"+laptops.getImg().get(i).trim(),null));
                 }
                 imageSlider.setImageList(slideModels,true);
-                String id_video = laptops.getLink_review().split("v=")[1];
+                String id_video = laptops.getLink_review().get(0).split("v=")[1].toString();
                 view.addYouTubePlayerListener(new YouTubePlayerListener() {
                     @Override
                     public void onReady(YouTubePlayer youTubePlayer) {
@@ -141,7 +141,7 @@ public class laptopData {
                 try {
                     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
                     StrictMode.setThreadPolicy(policy);
-                    URL url = new URL(laptops.getImg().get(0).trim());
+                    URL url = new URL("https://admin-laptop-app.herokuapp.com/public/img/"+laptops.getImg().get(0).trim());
                     HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
                     httpConn.connect();
                     int resCode = httpConn.getResponseCode();
